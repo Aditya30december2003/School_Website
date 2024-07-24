@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+  overflow: hidden;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-content{
+    display: flex;
+    height: 100%;
+    animation: scrolling 50s linear infinite;
+}
+
+@keyframes scrolling {
+    0%{
+        transform: translateX(80vw);
+    }
+    100%{
+        transform: translateX(-180vw);
+    }
+}
+
+.slider-content span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    width: 60vw;
+    flex-shrink: 0;
+}
+
+
+.slider-fitness{
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-fitness-content{
+      display: flex;
+      height: 100%;
+      animation: scrolling-fitness 50s linear infinite;
+  }
+  
+  @keyframes scrolling-fitness {
+      0%{
+          transform: translateX(-50vw);
+      }
+      100%{
+          transform: translateX(70vw);
+      }
+  }
+
+
+  
+  .slider-fitness-content span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      width: 60vw;
+      flex-shrink: 0;
+  }
+
+  .slider-community{
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+  }
+  .slider-community-content{
+    display: flex;
+    height: 100%;
+    animation: scrolling 50s linear infinite;
+}
+
+.exclusive{
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+/*  */
+.students-carousel {
+    height: 100vh; /* Make the carousel full screen */
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    height: 100vh; /* Make each item full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+  }
+  
+  .carousel-item-content {
+    width: full;
+    left: 0;
+    height: full;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  .photos, .videos {
+    margin-bottom: 2rem;
+  }
+  
+  .photo-item, .video-item {
+    position: relative;
+  }
+  
+  .photo-item img, .video-item video {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-item:hover img, .video-item:hover video {
+    transform: scale(1.05);
+  }
+  
+  .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 2, 79, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(10%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: 0.5rem;
+  }
+  
+  .group:hover .description {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .contact-container {
+    padding: 2rem;
+  }
+  
+  .contact-info p, .contact-info a {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form button {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .google-maps iframe {
+    border-radius: 0.5rem;
+  }
+  
+  .footer-container {
+    background-color: #2d3748; /* Tailwind gray-800 */
+  }
+  
+  .footer-container a {
+    color: #63b3ed; /* Tailwind blue-300 */
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-container i {
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+  .admissions-container {
+    padding: 2rem;
+  }
+  
+  .admissions-process, .admissions-criteria, .important-dates {
+    margin-bottom: 2rem;
+  }
+  
+  .important-dates ul {
+    padding-left: 1.5rem; /* Adjust list padding */
+  }
+    
