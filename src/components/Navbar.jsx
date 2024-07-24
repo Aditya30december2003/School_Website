@@ -64,7 +64,7 @@ const Navbar = () => {
       
 
      <NavLink to='/School_Website/admission' className='mr-[1rem] w-[15rem] h-[3rem] relative font-bold text-black bg-blue-900 border-2 group-hover:translate-x-full transform ease p-2 rounded-[2rem] cursor-pointer group  inline-flex  items-center justify-center overflow-hidden  hover:border-2 hover:bg-transparent  transition duration-300 ease-out'>
-      <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-blue-900 duration-300 group-hover:translate-x-0">
+      <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-blue-900 bg-white duration-300 group-hover:translate-x-0">
       <IoMdSchool size={30} />            
       </span>
        <span className='text-white font-bold ease absolute flex h-full w-full transform items-center justify-center transition-all duration-300 group-hover:translate-x-full'>Admissions</span> 
