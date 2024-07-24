@@ -21,19 +21,19 @@ const Navbar = () => {
       {/* navbar */}
       <div className='lg:flex items-center justify-between gap-10 hidden'>
         <ul className='flex items-center gap-6 font-bold text-[0.85rem]'>
-            <NavLink to='/' className='cursor-pointer hover:text-blue-900 duration-300'>HOME</NavLink>
-            <NavLink to='/about' className='cursor-pointer hover:text-red-600 duration-300'>ABOUT</NavLink>
-            <NavLink to='/academics' className='cursor-pointer flex items-center gap-1 hover:text-blue-900 duration-300'>
+            <NavLink to='/School_Website/' className='cursor-pointer hover:text-blue-900 duration-300'>HOME</NavLink>
+            <NavLink to='/School_Website/about' className='cursor-pointer hover:text-red-600 duration-300'>ABOUT</NavLink>
+            <NavLink to='/School_Website/academics' className='cursor-pointer flex items-center gap-1 hover:text-blue-900 duration-300'>
                <p>ACADEMICS</p> 
             </NavLink>
-            <NavLink to='/faculty' className='cursor-pointer hover:text-blue-900 duration-300'>FACULTY</NavLink>
-            <NavLink to='/students' className='cursor-pointer hover:text-blue-900 duration-300'>STUDENTS</NavLink>
-            <NavLink to='/gallery' className='cursor-pointer hover:text-blue-900 duration-300'>GALLERY</NavLink>
-            <NavLink to='/contact' className='cursor-pointer hover:text-blue-900 duration-300'>CONTACT US</NavLink>
+            <NavLink to='/School_Website/faculty' className='cursor-pointer hover:text-blue-900 duration-300'>FACULTY</NavLink>
+            <NavLink to='/School_Website/students' className='cursor-pointer hover:text-blue-900 duration-300'>STUDENTS</NavLink>
+            <NavLink to='/School_Website/gallery' className='cursor-pointer hover:text-blue-900 duration-300'>GALLERY</NavLink>
+            <NavLink to='/School_Website/contact' className='cursor-pointer hover:text-blue-900 duration-300'>CONTACT US</NavLink>
         </ul>
       
 
-    <NavLink to='/admission' className='mr-[1rem] w-[15rem] h-[3rem] relative font-bold text-black bg-blue-900 border-2 group-hover:translate-x-full transform ease p-2 rounded-[2rem] cursor-pointer group  inline-flex  items-center justify-center overflow-hidden  hover:border-2 hover:bg-transparent  transition duration-300 ease-out'>
+    <NavLink to='/School_Website/admission' className='mr-[1rem] w-[15rem] h-[3rem] relative font-bold text-black bg-blue-900 border-2 group-hover:translate-x-full transform ease p-2 rounded-[2rem] cursor-pointer group  inline-flex  items-center justify-center overflow-hidden  hover:border-2 hover:bg-transparent  transition duration-300 ease-out'>
       <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-blue-900 duration-300 group-hover:translate-x-0">
       <IoMdSchool size={30} />            
       </span>
@@ -51,19 +51,19 @@ const Navbar = () => {
      <div className='items-center justify-between gap-10 flex flex-col'>
      <div onClick={()=>{setNav(!nav)}} className='ml-[85%] mt-5 bg-gray-500 p-2 rounded-[100%]'><RxCross1 size={35} className='z-20 duration-300 cursor-pointer' /></div>
         <ul className='flex flex-col mt-[-2rem] text-[1rem] text-white items-center gap-6 font-bold'>
-            <NavLink to='/' className='cursor-pointer hover:text-blue-900 duration-300 mt-10'>HOME</NavLink>
+            <NavLink to='//School_Website' className='cursor-pointer hover:text-blue-900 duration-300 mt-10'>HOME</NavLink>
             <NavLink to='/about' className='cursor-pointer hover:text-blue-900 duration-300'>ABOUT</NavLink>
             <NavLink to='/academics' className='cursor-pointer flex items-center gap-1 hover:text-blue-900 duration-300'>
                <p>ACADEMICS</p> 
             </NavLink>
-            <NavLink to='/faculty' className='cursor-pointer hover:text-blue-900 duration-300'>FACULTY</NavLink>
-            <NavLink to='/students' className='cursor-pointer hover:text-blue-900 duration-300'>STUDENTS</NavLink>
-            <NavLink to='/gallery' className='cursor-pointer hover:text-blue-900 duration-300'>GALLERY</NavLink>
-            <NavLink to='/contact' className='cursor-pointer hover:text-blue-900 duration-300'>CONTACT US</NavLink>
+            <NavLink to='/School_Website/faculty' className='cursor-pointer hover:text-blue-900 duration-300'>FACULTY</NavLink>
+            <NavLink to='/School_Website/students' className='cursor-pointer hover:text-blue-900 duration-300'>STUDENTS</NavLink>
+            <NavLink to='/School_Website/gallery' className='cursor-pointer hover:text-blue-900 duration-300'>GALLERY</NavLink>
+            <NavLink to='/School_Website/contact' className='cursor-pointer hover:text-blue-900 duration-300'>CONTACT US</NavLink>
         </ul>
       
 
-     <NavLink to='/admission' className='mr-[1rem] w-[15rem] h-[3rem] relative font-bold text-black bg-blue-900 border-2 group-hover:translate-x-full transform ease p-2 rounded-[2rem] cursor-pointer group  inline-flex  items-center justify-center overflow-hidden  hover:border-2 hover:bg-transparent  transition duration-300 ease-out'>
+     <NavLink to='/School_Website/admission' className='mr-[1rem] w-[15rem] h-[3rem] relative font-bold text-black bg-blue-900 border-2 group-hover:translate-x-full transform ease p-2 rounded-[2rem] cursor-pointer group  inline-flex  items-center justify-center overflow-hidden  hover:border-2 hover:bg-transparent  transition duration-300 ease-out'>
       <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-blue-900 duration-300 group-hover:translate-x-0">
       <IoMdSchool size={30} />            
       </span>
