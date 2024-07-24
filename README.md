@@ -1,8 +1,23 @@
-# React + Vite
+Springdale Public School Website
+Overview
+This project is a website for Springdale Public School, featuring various components such as a gallery, faculty profiles, and student life sections. The website is built using React and includes state management using the Context API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Gallery of photos and videos
+Faculty profiles with animations
+Student life carousel with sections on extracurricular activities, achievements, and student council
+A contact form for inquiries
+Technologies Used
+React
+Context API
+Tailwind CSS
+AOS (Animate on Scroll)
+React Spring
+ESLint for code linting
+Getting Started
+Prerequisites
+Ensure you have the following installed on your local development environment:
 
-Currently, two official plugins are available:
+Node.js (v14 or later)
+npm (v6 or later) or yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
